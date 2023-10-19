@@ -1,0 +1,8 @@
+const http = require('http');
+
+cosnt app = 
+http.creatServer((req,res)=>{res.status(200).send('Hello,World')});
+
+app.listen(3000,()=>{console.log("the application is running on port 
+:3000");
+	
